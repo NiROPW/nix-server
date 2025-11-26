@@ -122,6 +122,7 @@
         max-players = 10;
         allow-flight = true;
         difficulty = 3;
+        view-distance = 20;
       };
 
       jvmOpts = "-Xms4G -Xmx8G";
