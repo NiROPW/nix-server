@@ -106,7 +106,6 @@
       package = pkgs.minecraftServers.vanilla-1_21_10;
       whitelist = {
         Casfex = "370e4237-029a-4ac1-b7dd-b08aad482267";
-        Bruinerakker67 = "9c9ca00d-58a2-4ca3-9883-e8f6975e34ef";
         azer_aspect = "bea87729-24a4-46bd-8d09-a51221e81840";
       };
       operators = {
@@ -121,11 +120,11 @@
         white-list = false;
         max-players = 10;
         allow-flight = true;
-        difficulty = 3;
-        view-distance = 20;
+        difficulty = 2;
+        view-distance = 18;
       };
 
-      jvmOpts = "-Xms4G -Xmx8G";
+      jvmOpts = "-Xms6G -Xmx12G";
     };
   };
 
