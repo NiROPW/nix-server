@@ -103,7 +103,7 @@
     openFirewall = true;
     servers.vanillaSurvival = {
       enable = true;
-      package = pkgs.minecraftServers.vanilla-1_21_10;
+      package = pkgs.minecraftServers.paper-1_21_10;
       whitelist = {
         Casfex = "370e4237-029a-4ac1-b7dd-b08aad482267";
         azer_aspect = "bea87729-24a4-46bd-8d09-a51221e81840";
@@ -121,10 +121,10 @@
         max-players = 10;
         allow-flight = true;
         difficulty = 2;
-        view-distance = 18;
+        view-distance = 12;
       };
 
-      jvmOpts = "-Xms6G -Xmx12G";
+      jvmOpts = "-Xms4G -Xmx4G -XX:+UseG1GC";
     };
   };
 
