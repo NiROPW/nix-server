@@ -107,6 +107,9 @@
       whitelist = {
         Casfex = "370e4237-029a-4ac1-b7dd-b08aad482267";
         azer_aspect = "bea87729-24a4-46bd-8d09-a51221e81840";
+        BigPepeFinn = "e5d12c14-f3b7-4270-8b4b-068592add60e";
+        zwarterakker67 = "3c7f4857-d14b-4c81-88d1-3698745e8035";
+        IliasOpDeFiets = "21ee4ed5-6fbe-4452-84fe-8acfd5a5ab92";
       };
       operators = {
         Casfex = {
@@ -117,7 +120,7 @@
       serverProperties = {
         gamemode = 0;
         motd = "#cancelAzer";
-        white-list = false;
+        white-list = true;
         max-players = 10;
         allow-flight = true;
         difficulty = 2;
