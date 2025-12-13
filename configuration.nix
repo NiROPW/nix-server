@@ -103,7 +103,7 @@
     openFirewall = true;
     servers.vanillaSurvival = {
       enable = true;
-      package = pkgs.minecraftServers.paper-1_21_10;
+      package = pkgs.minecraftServers.paper-1_21_11;
       whitelist = {
         Casfex = "370e4237-029a-4ac1-b7dd-b08aad482267";
         azer_aspect = "bea87729-24a4-46bd-8d09-a51221e81840";
