@@ -1,4 +1,6 @@
 *.lock
+hardware-configuration.nix
+minecraft-whitelist.nix
 
 # Ignore build outputs from performing a nix-build or `nix build` command
 result

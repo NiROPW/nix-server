@@ -1,0 +1,12 @@
+{
+  whitelist = {
+    PlayerName = "uuid-here";
+  };
+
+  operators = {
+    PlayerName = {
+      uuid = "uuid-here";
+      level = 4;
+    };
+  };
+}
