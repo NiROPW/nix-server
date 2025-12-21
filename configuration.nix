@@ -6,7 +6,7 @@ in
 {
   imports =
     [
-      ./hardware-configuration.nix
+      /etc/nixos/hardware-configuration.nix
     ];
 
   # boot
@@ -128,12 +128,13 @@ in
       serverProperties = {
         gamemode = 0;
 	hardcore = true;
-        motd = "#cancelReVoLuTioN";
+        motd = "#cancelNether";
         white-list = true;
         max-players = 10;
         allow-flight = true;
         difficulty = 3;
         view-distance = 32;
+	spawn-protection = 0;
       };
       jvmOpts = "-Xms4G -Xmx4G -XX:+UseG1GC";
     };
